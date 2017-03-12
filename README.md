@@ -1,4 +1,4 @@
-# ppackSVM
+# BPPGDSVM
 Ppack SVM for apache Spark
 
 To compile:
