@@ -1,4 +1,4 @@
-name := "ppackubuntu"
+name := "BPPGD"
 
 version := "1.0"
 
