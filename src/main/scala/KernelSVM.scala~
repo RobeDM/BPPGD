@@ -145,7 +145,7 @@ class KernelSVM(training_data:RDD[LabeledPoint], lambda_s: Double, kernel : Stri
     val runtime = (t2 - t1)/1000
     println("Testing time: "+runtime.toString)
 
-    val N_c = N_caux.count(x => (x._1*x._2.toDouble)>0)
+    val N_c = N_caux.count(x => x._1>0)
     val N = data.count(x => true)
 
     val tuples = sc.parallelize(N_caux)
