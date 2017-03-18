@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170314132448"/>
+		date="20170318101730"/>
 	<dependencies>
 		<module organisation="amplab" name="spark-indexedrdd">
 			<revision name="0.4.0" status="release" pubdate="20170111075304" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/amplab/spark-indexedrdd" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="146">
@@ -68,7 +68,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044903" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="116">
-				<metadata-artifact status="successful" details="" size="8062" time="99" location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.2/spark-mllib_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8062" time="49" location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.2/spark-mllib_2.11-2.0.2.pom"/>
 				<caller organisation="default" name="bppgd_2.11" conf="test, compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-mllib_2.11" type="jar" ext="jar" status="no" details="" size="5845713" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.0.2.jar">
@@ -103,7 +103,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-mllib-local_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108043819" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="137">
-				<metadata-artifact status="successful" details="" size="4096" time="84" location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.2/spark-mllib-local_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="4096" time="864" location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.2/spark-mllib-local_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-mllib_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-mllib-local_2.11" type="jar" ext="jar" status="no" details="" size="177853" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.0.2.jar">
@@ -189,7 +189,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-graphx_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044717" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="134">
-				<metadata-artifact status="successful" details="" size="5858" time="93" location="/home/operador/.ivy2/cache/org.apache.spark/spark-graphx_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-graphx_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.2/spark-graphx_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="5858" time="222" location="/home/operador/.ivy2/cache/org.apache.spark/spark-graphx_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-graphx_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.2/spark-graphx_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-mllib_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-graphx_2.11" type="jar" ext="jar" status="no" details="" size="679215" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-graphx_2.11/jars/spark-graphx_2.11-2.0.2.jar">
@@ -212,7 +212,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-sql_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044821" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="118">
-				<metadata-artifact status="successful" details="" size="8975" time="103" location="/home/operador/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8975" time="71" location="/home/operador/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-mllib_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-sql_2.11" type="jar" ext="jar" status="no" details="" size="6408055" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.2.jar">
@@ -304,7 +304,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-catalyst_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044610" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="121">
-				<metadata-artifact status="successful" details="" size="7044" time="332" location="/home/operador/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.2/spark-catalyst_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="7044" time="154" location="/home/operador/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.2/spark-catalyst_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-sql_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-catalyst_2.11" type="jar" ext="jar" status="no" details="" size="6903390" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.2.jar">
@@ -443,7 +443,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-sketch_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044418" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="120">
-				<metadata-artifact status="successful" details="" size="3157" time="141" location="/home/operador/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.2/spark-sketch_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="3157" time="65" location="/home/operador/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.2/spark-sketch_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-sql_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-sketch_2.11" type="jar" ext="jar" status="no" details="" size="29541" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-sketch_2.11/jars/spark-sketch_2.11-2.0.2.jar">
@@ -466,7 +466,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-streaming_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044247" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="117">
-				<metadata-artifact status="successful" details="" size="8959" time="147" location="/home/operador/.ivy2/cache/org.apache.spark/spark-streaming_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-streaming_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.2/spark-streaming_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8959" time="125" location="/home/operador/.ivy2/cache/org.apache.spark/spark-streaming_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-streaming_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.2/spark-streaming_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-mllib_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-streaming_2.11" type="jar" ext="jar" status="no" details="" size="2089486" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.0.2.jar">
@@ -477,7 +477,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044212" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
-				<metadata-artifact status="successful" details="" size="21047" time="374" location="/home/operador/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.2/spark-core_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="21047" time="56" location="/home/operador/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.2/spark-core_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-catalyst_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<caller organisation="org.apache.spark" name="spark-streaming_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<caller organisation="org.apache.spark" name="spark-graphx_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
@@ -1133,7 +1133,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044136" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
-				<metadata-artifact status="successful" details="" size="4659" time="107" location="/home/operador/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.0.2/spark-unsafe_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="4659" time="25" location="/home/operador/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.0.2/spark-unsafe_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-catalyst_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
@@ -1156,7 +1156,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044805" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
-				<metadata-artifact status="successful" details="" size="3995" time="66" location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.2/spark-network-shuffle_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="3995" time="62" location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.2/spark-network-shuffle_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-network-shuffle_2.11" type="jar" ext="jar" status="no" details="" size="55512" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/jars/spark-network-shuffle_2.11-2.0.2.jar">
@@ -1167,7 +1167,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044158" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
-				<metadata-artifact status="successful" details="" size="4897" time="93" location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.2/spark-network-common_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="4897" time="36" location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.2/spark-network-common_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<caller organisation="org.apache.spark" name="spark-network-shuffle_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
@@ -1266,7 +1266,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044615" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
-				<metadata-artifact status="successful" details="" size="6390" time="118" location="/home/operador/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.2/spark-launcher_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="6390" time="51" location="/home/operador/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.2/spark-launcher_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
 					<artifact name="spark-launcher_2.11" type="jar" ext="jar" status="no" details="" size="65655" time="0" location="/home/operador/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.0.2.jar">
@@ -1277,7 +1277,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.0.2" status="release" pubdate="20161108044251" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
-				<metadata-artifact status="successful" details="" size="1856" time="79" location="/home/operador/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.0.2/spark-tags_2.11-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="1856" time="33" location="/home/operador/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.2.xml" searched="true" original-local-location="/home/operador/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.0.2/spark-tags_2.11-2.0.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-catalyst_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<caller organisation="org.apache.spark" name="spark-streaming_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>

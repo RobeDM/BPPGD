@@ -137,6 +137,37 @@ class KernelSVM(training_data:RDD[LabeledPoint], lambda_s: Double, kernel : Stri
 
   }
 
+  /** make a prediction on a single data point */
+  def predict2 (data: LabeledPoint, localModel:Array[(LabeledPoint, Double)]): Double = {
+
+    var i = localModel(1)
+    var result = 0.0
+    for (i <- localModel){
+        result += i._2 * i._1.label * kernel_func.evaluate(data.features, i._1.features)
+    }
+    result
+  }
+
+  /** Evaluate the accuracy given the test set as a local array */
+  def getAccuracyAndAUC2(data: Array[LabeledPoint],sc:SparkContext): (Double,Double,Double) = {
+    val localModel = model.collect()
+    val t1 = System.currentTimeMillis
+    val N_caux = data.map(x => (predict2(x,localModel),x.label))
+    val t2 = System.currentTimeMillis
+    val runtime = (t2 - t1)/1000
+    println("Testing time: "+runtime.toString)
+
+    val N_c = N_caux.count(x => (x._1*x._2.toDouble)>0)
+    val N = data.count(x => true)
+
+    val tuples = sc.parallelize(N_caux)
+    val metrics = new BinaryClassificationMetrics(tuples)
+
+    metrics.roc()
+    (N_c.toDouble / N, metrics.areaUnderROC,runtime)
+
+  }
+
   /** Evaluate the accuracy given the test set as a local array */
   def getAccuracyAndAUC(data: Array[LabeledPoint],sc:SparkContext): (Double,Double,Double) = {
     val t1 = System.currentTimeMillis
